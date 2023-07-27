@@ -1,143 +1,97 @@
 // getAgencyByName
 // @param {string} - name
 // @return {Object} - agency object
-getAgencyByName = (name) => {
-
-};
+getAgencyByName = (name) => {};
 
 // getAgencyIdByName
 // @param {String} - name
 // @return {String} - agencyId
-getAgencyIdByName = function (name) {
-
-};
+getAgencyIdByName = function (name) {};
 
 // getAllAgenciesName
 // @return {string[]} - agenciesNameArr - Array of all agencies name
-getAllAgenciesName = function () {
-
-};
+getAllAgenciesName = function () {};
 
 // getAllCarToBuy
 // @return {object[]} - allCarsToBuy - arrays of all cars objects
-getAllCarToBuy = function () {
-
-};
-
+getAllCarToBuy = function () {};
+//
 // getAllCarToBuyByAgencyId
 // @param {string} - id of agency
 // @return {object[]} - carsArray - arrays of all models objects of specific agency
-getAllCarToBuyByAgencyId = function (agencyId) {
-
-};
+getAllCarToBuyByAgencyId = function (agencyId) {};
 
 // getAllBrandsToBuyAgencyId
 // @param {string} - agencyId -  id of agency
 // @return {string[]} - arrOfBrands - arrays of all brands name in specific agency
-getAllBrandsToBuyAgencyId = function (agencyId) {
-
-};
+getAllBrandsToBuyAgencyId = function (agencyId) {};
 
 // getCustomerByName
 // @param {string} - name
 // @return {Object} - customer
-getCustomerByName = (name) => {
-
-};
+getCustomerByName = (name) => {};
 
 // getCustomerIdByName
 // @param {name}
 // @return {String} - customerId - The customer id
-getCustomerIdByName = function (name) {
-
-};
+getCustomerIdByName = function (name) {};
 
 // getAllCustomersNames
 // @return {string[]} - customersNameArr -  Array of all customers name
-getAllCustomersNames = function (name) {
-
-};
+getAllCustomersNames = function (name) {};
 
 // getAllCustomerCars
 // @param {id} - costumerId - costumer id
 // @return {object[]} - customerCarsArr -  Array of all customer cars object
-getAllCustomerCars = function (id) {
-
-};
+getAllCustomerCars = function (id) {};
 
 // getCustomerCash
 // @param {id} - costumerId - costumer id
 // @return {number} - CustomerCash
-getCustomerCash = function (id) {
-
-};
+getCustomerCash = function (id) {};
 
 // setPropertyBrandToAllCars
 // set all cars model object the current brand
-setPropertyBrandToAllCars = function () {
-
-};
+setPropertyBrandToAllCars = function () {};
 
 // setNewCarToAgency
 // @param {string} - id of agency
 // @param {object} - carObject
-setNewCarToAgency = function (agencyId, carObject) {
-
-};
+setNewCarToAgency = function (agencyId, carObject) {};
 
 // deleteCarFromAgency
 // @param {string} - id of agency
 // @param {string} -  Car id
-deleteCarFromAgency = function (marketObj, agencyId, carId) {
-
-};
+deleteCarFromAgency = function (marketObj, agencyId, carId) {};
 
 // decrementOrIncrementCashOfAgency
 // @param {string} - agencyId
 // @param {number} - amount - negative or positive amount
 // @return {number} - agencyCash
-decrementOrIncrementCashOfAgency = function (
-  marketObj,
-  agencyId,
-  amount
-) {
-
-};
+decrementOrIncrementCashOfAgency = function (marketObj, agencyId, amount) {};
 
 // decrementOrIncrementCreditOfAgency
 // @param {string} - agencyId
 // @param {number} - amount - negative or positive amount
 // @return {number} - agencyCash
-decrementOrIncrementCreditOfAgency = function (
-  marketObj,
-  agencyId,
-  amount
-) {
-
-};
+decrementOrIncrementCreditOfAgency = function (marketObj, agencyId, amount) {};
 
 // setAmountOfCarsToBuyToAllAgency's
 // set a new property amountOfCars to all agency's, that represent the amount of cars available in the agency.
 // @return {objects[]} - sellers - array of all agency's
-setAmountOfCarsToBuyToAllAgency = function (carMarket) {
-
-};
+setAmountOfCarsToBuyToAllAgency = function (carMarket) {};
 
 // setCarToCostumer
 // @param {string} - costumerId
 // @param {object} - carObject
 // @return {object[]} - allCarsOfCostumer
-setCarToCostumer = function (marketObj, customerId, carObj) {
-
-};
+setCarToCostumer = function (marketObj, customerId, carObj) {};
 
 // deleteCarOfCostumer
 // @param {string} - costumerId
 // @param {string} - carId
 // @return {object[]} - allCarsOfCostumer
-deleteCarOfCostumer = function (marketObj, customerId, carId) {
-
-};
+deleteCarOfCostumer = function (marketObj, customerId, carId) {};
 
 // decrementOrIncrementCashOfCostumer
 // @param {string} - costumerId
@@ -147,9 +101,7 @@ decrementOrIncrementCashOfCostumer = function (
   marketObj,
   customerId,
   amount
-) {
-
-};
+) {};
 
 //   sortAndFilterByYearOfProduction
 //   filter and Sort in a Ascending or Descending order all vehicles for sale by year of production.
@@ -163,9 +115,7 @@ sortAndFilterByYearOfProduction = function (
   fromYear,
   toYear,
   isAscendingOrder
-) {
-
-};
+) {};
 
 //   sortAndFilterByPrice
 //   filter and Sort in a Ascending or Descending order all vehicles for sale by price of the cars.
@@ -179,9 +129,7 @@ sortAndFilterByPrice = function (
   fromPrice,
   toPrice,
   isAscendingOrder
-) {
-
-};
+) {};
 
 //   searchCar
 //   @param {object[]} - arrOfCars - array of cars
@@ -190,16 +138,7 @@ sortAndFilterByPrice = function (
 //   @param {number} - fromPrice - Will display vehicles starting at this price
 //   @param {number} - fromPrice - Will display vehicles up to this price
 //   optional @param {string} - brand - Look only for cars of this brand
-searchCar = function (
-  carArray,
-  fromYear,
-  toYear,
-  fromPrice,
-  toPrice,
-  brand
-) {
-
-};
+searchCar = function (carArray, fromYear, toYear, fromPrice, toPrice, brand) {};
 
 //   Sell ​​a car to a specific customer
 //   @param {string} - agencyId
@@ -213,13 +152,11 @@ searchCar = function (
 //      - c. Change the car owner's id to the customer's id.
 //      - d. Remove the car from the array of the agency's car models.
 //      - e. Add the car to the client cars array.
-// 
+//
 //      Taxes Authority:
 //      - f. Pay 17 percent of the vehicle value to the tax authority. (add the amount to totalTaxesPaid)
 //      - g. Increase the number of transactions made in one (numberOfTransactions)
 //      - h. Add the vehicle amount + tax to sumOfAllTransactions
 //     - Check that there is the requested vehicle at the agency in not return 'The vehicle does not exist at the agency'
 //     - Check that the customer has enough money to purchase the vehicle, if not return 'The customer does not have enough money'
-sellCar = function (marketObj, agencyId, customerId, carModel) {
-
-};
+sellCar = function (marketObj, agencyId, customerId, carModel) {};
